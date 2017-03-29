@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/Map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/DrawingImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="81dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCrearNodo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crear Nodo" />
+
+            <Button
+                android:id="@+id/btnCrearArista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crear Arista" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información de Nodo" />
+
+            <EditText
+                android:id="@+id/txtID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtSumaAtt"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="Suma"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtRestaAtt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Resta"
+                android:inputType="number" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                app:srcCompat="@drawable/mila" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información de Arista" />
+
+            <EditText
+                android:id="@+id/txtAtt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Atributo"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Crítico"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
